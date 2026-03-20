@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventHub</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font (optional but nice) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <nav class="navbar">
+    <h2 class="logo">EventHub</h2>
+
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#register">Register</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Discover Amazing Events</h1>
+    <p>Join workshops, seminars and tech talks</p>
+    <button class="hero-btn">Explore Events</button>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section id="events" class="events">
+
+  <h2>Upcoming Events</h2>
+
+  <div class="event-container">
+
+    <!-- CARD 1 -->
+    <div class="event-card">
+      <img src="./images/event1.jpg" alt="AI Workshop">
+      <h3>AI Workshop</h3>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="event-card">
+      <img src="./images/event2.jpg" alt="Web Bootcamp">
+      <h3>Web Development Bootcamp</h3>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- REGISTER -->
+<section id="register" class="register">
+
+  <h2>Register for Event</h2>
+
+  <form id="registrationForm">
+
+    <label>Your Name:</label>
+    <input type="text" placeholder="Your Name" required>
+
+    <label>Your Email:</label>
+    <input type="email" placeholder="Your Email" required>
+
+    <label>Select Event:</label>
+    <select required>
+      <option value="">Select Event</option>
+      <option>AI Workshop</option>
+      <option>Web Development Bootcamp</option>
+    </select>
+
+    <button type="submit">Register</button>
+
+  </form>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 EventHub</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
